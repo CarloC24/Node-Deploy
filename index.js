@@ -5,7 +5,7 @@ const server = express();
 const port = process.env.PORT || 9000;
 
 server.get('/', (req, res) => {
-  res.json({ message: 'Deploy me' });
+  res.json({ api: 'Deploy me' });
 });
 
 server.listen(port, () => {
