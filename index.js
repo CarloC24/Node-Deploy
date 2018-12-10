@@ -2,7 +2,7 @@ const express = require('express');
 
 const server = express();
 
-const port = process.env.port || 9000;
+const port = process.env.PORT;
 
 server.get('/', (req, res) => {
   res.json({ api: 'Deploy me' });
