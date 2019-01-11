@@ -2,10 +2,7 @@
     "name": "business-reviews",
     "version": "1.0.0",
     "description": "Business",
-    "main": "index.js",
-    "scripts": {
-      "start": "node index.js"
-    },
+    "main": "backend/index.js",
     "keywords": [],
     "author": "carlo",
     "license": "ISC",
